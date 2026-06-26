@@ -12,7 +12,7 @@ We built this for the front lines: the research vessel, the airgapped lab, and t
 A development environment is only "Integrated" if it actually contains the tools. 
 *   **The Toolchain is Inside:** KittySuite comes pre-packaged with **`uv`**, **`Go`**, and **`Zig`**. You don't "set up" an environment; you install the IDE and start coding.
 *   **The Version Control is Inside:** We don't rely on your "system git." We built native version control directly into the engine. It works the second you open it.
-*   **The Intelligence is Inside:** Our local AI inference archetecture is powered by the bundled **`llama.cpp`**. Drag in a model GGUF (and vision encoder or mtp GGUFs as applicable) and you have a local LLM that works in airgapped environments.
+*   **The Intelligence is Inside:** Our local AI inference architecture is powered by the bundled **`llama.cpp`**. Drag in a model GGUF (and vision encoder or mtp GGUFs as applicable) and you have a local LLM that works in airgapped environments.
 
 ### Integrity
 Because we build all the integrations ourselves:
